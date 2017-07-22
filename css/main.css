@@ -1,0 +1,714 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+	background-color: #fff;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555 ;
+-webkit-font-smoothing: antialiased;
+-webkit-overflow-scrolling: touch;
+
+
+}
+
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
+h1, h2, h3, h5, h6{
+	font-family: "Realeway";
+	font-weight: 300;
+	color: #333;
+	text-align: center;
+
+}
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.centered{
+	text-align: center;
+}
+
+
+a
+{
+	color: #f85c37;
+	
+}
+
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+main{
+	padding-left: 0;
+   
+}
+
+.top_line{
+	min-height: 133px;
+	-webkit-box-shadow:rgba(255,255,255,.3)0 0 0 1px ;
+	box-shadow:rgba(255,255,255,.3)0 0 0 1px ;
+	background-color: rgba(0,0,0,.60);
+	padding: 22px 0;
+	margin-left: -15px;
+    margin-right: -14px;
+}
+
+.top_line a {
+	font-size: 21px;
+	border-bottom: #fff dashed 2px; 
+	text-transform: uppercase;
+	-webkit-transition:  all .25s;
+	-o-transition:  all .25s ;
+	transition:  all .25s;
+}
+
+
+.top_line a:hover {
+	border-bottom: transparent 2px dashed;
+}
+
+.top_addr{
+	background-image: url(../img/top_map.png);
+	background-position: left ;
+	text-align: left;
+	background-repeat: no-repeat;
+	font-family: "BebasRegular";
+	padding-left:60px;
+}
+
+.top_addr strong {
+	color: #D12f22;
+	display: block;
+	font-weight: bold;
+	font-size: 31px;
+}
+
+
+.top_line .logo {
+	border-bottom: none;
+	background-position: center;
+	margin-top: -18px;
+}
+
+.logo_wrap {
+	position: relative;
+	margin: auto;
+	z-index: 1;
+}
+	
+}
+.top_line .logo:hover {
+	border-bottom: none;
+}
+
+
+.ta_right {
+	background-image: none;
+	text-align: right;
+}
+.ta_right span {
+	color: #fff;
+}
+
+.top_mnu {
+	height: 62px;
+	background-color: #ff0000;
+	font-family: "BebasRegular";
+	text-transform: uppercase;
+
+}
+
+.top_mnu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+
+.top_mnu a{
+	color: #fff;
+	font-style: 20px;
+	padding:  0 26px;
+	display: block;
+	line-height: 62px;
+	border-left: #383838 1px solid;
+
+}
+.top_mnu li{
+	float: right;
+
+}
+
+.top_mnu li.active ,
+.top_mnu li:hover a{
+	background-color: #050505;
+}
+
+
+.headerwrap{
+	background-image: url(../img/fl1.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 655px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+
+.headerwrap h1 {
+	margin-top: 100px;
+	color:white;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+
+}
+
+.headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+.subscribe {
+
+	background: rgba(0,0,0,0.65);
+	display: inline-block;
+	margin-top: 200px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	float: right;
+	
+}
+.subscribe  input{
+	float: left;
+}
+.subscribe input[type="text"], .subscribe input[type="phone"] {
+	padding: 0; 
+	border: 0;
+	width: 320px;
+	margin-right: 10px;
+	font-size: 1em;
+	padding: 10px 20px;
+
+}
+.subscribe input[type="submit"]{
+	background: #ff0000;
+	border: 0;
+	color: #fff;
+	font-style: 1.25em;
+	font-weight: 700;
+	padding: 10px 35px;
+	
+}
+.subscribe input[type="submit"]:hover{
+ background-color: #e20000;
+}
+
+
+/* 2 страница иконки*/
+
+.container_a{
+	background-image: url(../img/background1.png);
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-bottom: 0;
+}
+
+
+ h4{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	color: #d90000;
+
+}
+.slogan1 h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	color: #d90000;
+	
+
+}
+
+.number{
+	font-size: 50px;
+	font-weight: bold;
+	opacity: 0;
+
+} /*блок с счетчиком клиентов*/
+
+.viz{
+	opacity: 1;
+	transition: 1s;
+}/* создается через JQ для меделенного появления цифр*/
+
+.text{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	color: #d90000;
+	font-weight: bold;
+
+
+}
+
+
+/* 2 страница*/
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+} /* убирает отступы между блоками bootstrap*/
+
+
+
+
+.con_left {
+	background-color: #d90000;
+	height: 350px;
+	padding: 10px 30px;
+	
+	
+}
+	
+/* 2 страница*/
+	
+
+
+ .con_left h1{
+	font-size: 70px;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	color: #fff;
+	font-weight: bold;
+
+}
+
+
+
+.con_left p{
+	font-family: "BebasRegular";
+	color: #fff;
+	font-size: 20px;
+    line-height: 1.5;
+}
+
+
+
+
+.con_right{
+	background-image: url(../img/plain_d.png);
+	background-color: #212121;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 350px;
+	
+
+}
+
+
+
+
+
+/* 3 страница*/
+.container_с{
+	margin-bottom:0;
+    padding: 0;
+}
+
+
+.right_bar {
+	position:relative;
+	padding: 10px 50px;
+	background-color: #212121;
+	min-height: 670px;
+	width:  100%;
+}
+
+.left_bar{
+	position:relative;
+	width:  100%;	
+	background-color: #3b3b3b;
+	min-height: 670px;
+	padding: 10px 30px;
+
+}
+
+
+.container_с h1 {
+		color: #fff;
+		font-size: 50px;
+		text-transform: uppercase;
+		font-family: "BebasRegular";
+}
+
+.right_bar p{
+	
+	color: #fff;
+	font-size: 20px;
+    line-height: 1.7;
+}
+
+
+.main-menu {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    list-style: none;
+}
+
+.left_bar .main-menu a{
+	display: block;
+    margin-bottom: -1px;
+    padding: 8px 14px;
+    text-decoration: none;
+    color: #0088cc;
+    border-bottom: #fff 1px solid;
+  	color: #fff;
+	font-size: 30px;
+    text-transform: uppercase;
+	font-family: "BebasRegular";
+	
+}
+ .main-menu li :hover {
+    background: #e20000;
+    
+}
+
+
+/*4 страница*/
+
+.parallax-window {
+	background-image: url(../img/bgraund_2.jpg);
+	width: 1333px;
+	height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+
+
+
+
+.container_d{
+	padding: 0px 0px;
+	margin-bottom: 0;
+}
+
+/*карта*/
+.main_map {
+	position:relative;
+	background-repeat: no-repeat;
+	padding: 10px 50px;
+	background-image: url(../img/r1.png);
+	height: 700px;
+	width:  100%;
+}
+
+#d, #d1, #d2, #d3, #d4, #d5, #d6{
+	background-image: url(../img/met_map.png);
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 600px;
+	opacity: 0;
+	transition: 0,5s;
+	
+}
+
+#d {
+background-position: 88% 80%;	
+}
+
+#d1 {
+background-position: 35% 47%;
+}
+
+#d2 {
+background-position: 25% 47%;
+}
+
+#d3 {
+background-position: 39% 47%;
+}
+
+#d4 {
+background-position: 1% 77%;
+}
+
+#d5 {
+background-position: 92.4% 50%;
+}
+
+#d6 {
+background-position: 83% 95%;
+}
+
+
+
+
+
+
+
+.left_map {
+    margin: auto;
+    max-width: 400px;
+    padding: 10px 10px 1px 1px;
+    
+}
+.left_map h1 {
+		color: #ff0000;
+	    font-family: "BebasRegular";
+	    font-size: 50px;
+	    padding: 20px;
+	    text-align: left;
+	    text-transform: uppercase;
+	}
+
+.left_map ul{
+    
+    padding-left: 10px;
+}
+
+
+
+.left_map li{
+    
+    list-style: none;
+}
+
+ .left_menu a {
+
+ 	text-decoration: none;
+	display: block;
+    margin-bottom: -1px;
+    padding: 8px 14px;
+    color: #3b3b3b;
+    border-bottom: #3b3b3b 1px solid;
+  	font-size: 30px;
+    text-transform: uppercase;
+	font-family: "BebasRegular";
+}
+ .mx{
+ 	display: none;
+ }
+
+.left_menu  a:hover {
+	background: #e20000;
+
+}
+
+.left_menu li:hover .mx {
+   display: block;
+   background: #fff;
+    }
+
+
+
+/* 5 страница */
+
+
+/*заказать звонок*/
+.poop {
+		
+		min-height: 150px;
+		width: 100%;	
+		background-color: #212121;
+
+}
+
+.slogan{
+	     min-height: 126px;
+		width: 100%;	
+		border-right: 1px solid #fff;
+		padding-bottom: 10px;
+
+}
+
+.slogan h4{
+	
+		color: #fff;
+		font-size: 50px;
+		text-transform: uppercase;
+		font-family: "BebasRegular";
+		 text-align: left;
+		
+
+}
+.slogan p{
+
+		color: #ff0000;
+		font-size: 35px;
+		text-transform: uppercase;
+		font-family: "BebasRegular";
+		 text-align: left;
+
+}
+		
+.sloganBaton button {
+	margin: 7%;
+    min-height: 100px;
+	width: 50%;	
+	background: #ff0000;
+	border: 0;
+}
+
+.sloganBaton button  a{	
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	
+}
+
+
+
+
+/*блок новостей*/
+
+
+.news h1{
+margin-top: 60px;
+color: #3b3b3b;
+font-size: 50px;
+text-transform: uppercase;
+font-family: "BebasRegular";
+text-align: left;
+}
+
+/*кнопки лестания новостей*/
+.pagination {
+	margin-top: 60px;
+	float: right;
+}
+
+
+.block {
+position: relative;
+height: 200px;
+width: 100%;	
+background-color: red;
+border: 1px solid #fff;
+} 
+
+
+.news1, .news2, .news3{
+	background-image: url(../img/news1.jpg);
+	background-repeat: no-repeat;
+}
+
+.btn-danger {
+    background-color: #ff0000;
+    border-color: #d43f3a;
+    color: #fff;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+	border-radius: 0px;
+}
+
+/*контакты*/
+
+
+.contact_map {
+background-image: url(../img/map_con.png);
+background-repeat: no-repeat;
+width: 100%; 
+height: 500px;
+padding: 10px 50px;
+
+}
+
+.maptt{
+
+	background-image: url(../img/met_map.png);
+	background-repeat: no-repeat;
+	background-position: 52% 68%;
+	width: 98%; 
+	height: 500px;/*dscjnf.*/
+	
+	
+}
+
+
+.main_conact{
+	background-color: #ff0000;
+	width: 100%; 
+	height: 500px;/*dscjnf.*/
+}
+
+
+.main_conact{
+	padding: 20px 20px 20px 20px;
+}
+
+
+
+.main_conact p{
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	font-weight:bold;
+
+}
+
+
+
+
+.subcontact  input{
+	float: left;
+}
+.subcontact input[type="text"], .subcontact input[type="phone"] {
+	padding: 0; 
+	border: 1;
+	width: 320px;
+	margin-top: 10px;
+	font-size: 1em;
+	padding: 10px 20px;
+
+}
+.subcontact input[type="submit"]{
+	background: #212121;
+	border: 0;
+	color: #fff;
+	font-style: 1.25em;
+	font-weight: 700;
+	padding: 10px 35px;
+	margin-top: 10px;
+	
+}
+.subcontact input[type="submit"]:hover{
+ background-color: #e20000;
+
+}
